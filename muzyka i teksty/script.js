@@ -1,3 +1,7 @@
+$(document).ready(() => {
+
+});
+
 let cd1 = document.getElementById("clickme1");
 let tracks1 = document.getElementById("table1");
 let cd2 = document.getElementById("clickme2");
@@ -29,3 +33,15 @@ function callTrack11 (){
 }
 
 firsttrack.onclick = callTrack11;
+
+
+/*const login = document.getElementById('login');
+const loginMenu = document.getElementById('loginMenu');
+
+login.addEventListener('click', () => {
+  if(loginMenu.style.display === 'none'){
+    loginMenu.style.display = 'inline';
+  } else {
+    loginMenu.style.display = 'none';
+  }
+});*/
