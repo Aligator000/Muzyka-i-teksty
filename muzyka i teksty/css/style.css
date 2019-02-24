@@ -203,7 +203,40 @@ span.highlighted {
 	padding-bottom: 3em;
 }
 
+#clickme1, #clickme2 {
+	cursor: pointer;
+}
 
+
+#table1 {
+	display: none;
+}
+
+#table2 {
+	display: none;
+	margin-left: 380px;
+	
+}
+
+.track-name {
+	font-size: 24px;
+	padding: 15px;
+}
+
+#track1-1 {
+	display: none;
+	margin-left: 380px;
+	font-size: 15px;
+}
+
+#firsttrack {
+	cursor: pointer;
+}
+
+#track1-1 {
+	margin-left: 380px;
+	
+}
 
 @media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait)  {
    body {
